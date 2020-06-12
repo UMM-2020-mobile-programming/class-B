@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PulangActivity"
+    android:background="#F5FDFE">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informasi Pemesan"
+        android:fontFamily="@font/quillan"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="36dp"/>
+
+    <EditText
+        android:id="@+id/textone"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="90dp"
+        android:hint=" Tanggal Pergi"
+        android:paddingLeft="10dp"
+        android:background="@drawable/greybox"/>
+
+    <Button
+        android:id="@+id/buttonone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/calendar"/>
+
+    <Button
+        android:text="Kembali"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="27dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/buttonone"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

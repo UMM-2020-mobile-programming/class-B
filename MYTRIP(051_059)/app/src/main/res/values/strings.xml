@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidStudio</string>
+    <string name="radio_a">Transfer Bank Via Internet</string>
+    <string name="radio_b">Transfer Bank Via Counter</string>
+    <string name="radio_c">Ovo</string>
+    <string name="radio_d">Briva</string>
+    <string name="radio_e">Mr.</string>
+    <string name="radio_f">Mrs.</string>
+    <string name="title_activity_berandas">BerandasActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

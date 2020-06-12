@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PengaturanFragment"
+    android:background="#F5FDFE">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bot"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan"
+        android:fontFamily="@font/quillan"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="36dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_account_circle_black_24dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"/>
+
+    <Button
+        android:id="@+id/keluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:paddingRight="170dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorTransparan"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="16dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_marginTop="200dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#000"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_notifications_black_24dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pemberitahuan"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/colorTransparan"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <Switch
+        android:id="@+id/switc"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="300dp"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_marginTop="270dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#000"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_email_black_24dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="290dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="290dp"
+        android:background="@color/colorTransparan"
+        android:textAllCaps="false"
+        android:textColorHint="#000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_marginTop="340dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#000"/>
+
+    <com.ebanx.swipebtn.SwipeButton
+        android:id="@+id/swipe"
+        android:layout_width="340dp"
+        app:inner_text_background="@color/colorTransparan"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="15dp"
+        app:inner_text="Geser untuk Sync Sekarang"
+        app:inner_text_color="#000"
+        app:inner_text_size="16dp"
+        app:inner_text_top_padding="15dp"
+        app:inner_text_bottom_padding="15dp"
+        app:button_image_enabled="@drawable/ic_sync_black_24dp"
+        app:button_image_disabled="@drawable/ic_sync_black_24dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_marginTop="410dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#000"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_phone_black_24dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="430dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Telepon"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="430dp"
+        android:background="@color/colorTransparan"
+        android:textAllCaps="false"
+        android:textColorHint="#000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_marginTop="480dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#000"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ee"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="500dp"/>
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informasi"
+        android:paddingRight="160dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="500dp"
+        android:background="@color/colorTransparan"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="3dp"
+        android:background="#000"/>
+
+
+
+
+</FrameLayout>

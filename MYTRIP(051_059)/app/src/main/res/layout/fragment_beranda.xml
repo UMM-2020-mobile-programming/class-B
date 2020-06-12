@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BerandaFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My trip"
+            android:textSize="48dp"
+            android:fontFamily="@font/quillan"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="#70A6D3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My trip"
+            android:textSize="48dp"
+            android:fontFamily="@font/quillan"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:textColor="#171616"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/pageone"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/pesawat" />
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="120dp"
+        android:background="@drawable/discon"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Tujuan Populer"
+        android:textColor="@color/colorbiru"
+        android:textSize="24dp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:background="@drawable/populerone"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="140dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

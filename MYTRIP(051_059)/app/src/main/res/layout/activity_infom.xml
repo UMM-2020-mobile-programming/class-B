@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfomActivity"
+    android:background="#F5FDFE">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informasi Pemesan"
+        android:fontFamily="@font/quillan"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="36dp"/>
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="60dp"
+        android:layout_marginTop="90dp"
+        android:hint=" Nama Depan"
+        android:paddingLeft="10dp"
+        android:background="@drawable/greybox"/>
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:hint=" Nama Belakang"
+        android:paddingLeft="10dp"
+        android:background="@drawable/greybox"/>
+
+    <EditText
+        android:id="@+id/textone"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="270dp"
+        android:hint=" Tanggal Pergi"
+        android:paddingLeft="10dp"
+        android:background="@drawable/greybox"/>
+
+    <Button
+        android:id="@+id/buttonone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/calendar"/>
+
+    <Button
+        android:text="Pulang - Pergi"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="27dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/buttonone"
+        />
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="60dp"
+        android:layout_marginTop="450dp"
+        android:hint=" Email"
+        android:paddingLeft="10dp"
+        android:background="@drawable/greybox"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupNb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp">
+
+        <RadioButton
+            android:id="@+id/radioAcer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radio_e" />
+
+        <RadioButton
+            android:id="@+id/radioAsus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_f" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/row"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
