@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "15407461771",
+    "firebase_url": "https://chattingtubes.firebaseio.com",
+    "project_id": "chattingtubes",
+    "storage_bucket": "chattingtubes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15407461771:android:1811607845a22fa423ab8e",
+        "android_client_info": {
+          "package_name": "com.anoma.chatting_tubes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15407461771-80jf47k3kpsef5kfnt3o974so36q22gb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anoma.chatting_tubes",
+            "certificate_hash": "f43805c4c93b4ad725b745814c603deeab254f5d"
+          }
+        },
+        {
+          "client_id": "15407461771-con3qr77lvdom0u70p0gud7jg71pokue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCZvHw2H9Q4zWgHy1mOmk2wPNBIWC_ASU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15407461771-con3qr77lvdom0u70p0gud7jg71pokue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
